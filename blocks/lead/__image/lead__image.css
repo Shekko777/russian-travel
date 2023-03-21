@@ -1,0 +1,9 @@
+.lead__image {
+  display: block;
+  margin-bottom: 8px;
+  width: 100vw;
+  max-width: 984px;
+  max-height: 615px;
+  object-fit: cover;
+  object-position: center;
+}
