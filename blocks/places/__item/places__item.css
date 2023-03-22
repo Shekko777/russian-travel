@@ -1,0 +1,18 @@
+.places__item {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(235px, 1fr));
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__item {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .places__item {
+    grid-template-columns: repeat(1, 100%);
+    gap: 32px;
+  }
+}

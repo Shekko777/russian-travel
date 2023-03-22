@@ -1,0 +1,28 @@
+.places__website {
+  position: relative;
+  max-width: 456px;
+  text-decoration: none;
+  color: #fff;
+  align-self: end;
+  font-size: 18px;
+  line-height: 1.2;
+  border-bottom: 1px solid #fff;
+  transition: opacity 0.2s;
+  display: inline-block;
+}
+
+.places__website:hover {
+  opacity: 0.8;
+}
+
+.places__website::before {
+  position: absolute;
+  content: "URL";
+  top: 0;
+  left: 0;
+  transform: translateY(-19px);
+  opacity: 0.7;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+}
