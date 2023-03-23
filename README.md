@@ -3,6 +3,7 @@
 ## Обзор
 
 **[Перейти на сайт](https://www.google.com)**
+
 <img src="./images/README/README.jpg" width="700">
 
 ---
@@ -12,12 +13,15 @@
 **Туристический сайт по красивой России.**
 
 1. Резиновая легко дополняющаяся галлерея
+
    <img src="./images/README/1.jpg" width="500">
 
 2. Описание и ссылки на красивые места
+
    <img src="./images/README/2.jpg" width="500">
 
 3. Быстрые и удобные ссылки на полезные ресурсы
+
    <img src="./images/README/3.jpg" width="500">
 
 ---
