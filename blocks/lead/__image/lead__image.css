@@ -1,9 +1,15 @@
 .lead__image {
   display: block;
   margin-bottom: 8px;
-  width: 100vw;
+  width: 100%;
   max-width: 984px;
   max-height: 615px;
   object-fit: cover;
   object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    width: 100vw;
+  }
 }

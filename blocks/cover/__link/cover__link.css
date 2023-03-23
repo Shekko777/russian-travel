@@ -26,21 +26,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .cover {
-    margin-bottom: 88px;
+  .cover__link {
     padding: 195px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .cover {
+  .cover__link {
     margin-bottom: 88px;
     padding: 115px 0;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .cover {
+  .cover__link {
     margin-bottom: 88px;
     padding: 33px 0;
   }
