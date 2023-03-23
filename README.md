@@ -2,7 +2,7 @@
 
 ## Обзор
 
-**[Перейти на сайт](https://www.google.com)**
+**[Перейти на сайт](https://shekko777.github.io/russian-travel/)**
 
 <img src="./images/README/README.jpg" width="700">
 
