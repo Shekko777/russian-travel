@@ -17,15 +17,13 @@
 
     <!-- header -->
     <header class="header">
-        <a class="header__logo-link" href="#">
-            <img class="header__logo" src="./images/header/logo.svg" alt="Логотип сайта с изображением карты России">
-        </a>
+        <a class="header__logo" href="#"></a>
         <ul class="header__lang-links">
             <li class="header__lang-item header__lang-item_active">
-                <button class="header__lang-link">Ru</button>
+                <a class="header__lang-link" href="#">Ru</a>
             </li>
             <li class="header__lang-item">
-                <button class="header__lang-link">En</button>
+                <a class="header__lang-link" href="#">En</a>
             </li>
         </ul>
 
@@ -38,8 +36,10 @@
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
             <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-            <img class="lead__image" src="./images/header/map-img.jpg" alt="Карта России">
-            <p class="lead__caption">ваша полка - верхняя</p>
+            <figure class="lead__figure">
+                <img class="lead__image" src="./images/header/map-img.jpg" alt="Карта России">
+                <figcaption class="lead__caption">ваша полка - верхняя</figcaption>
+            </figure>
         </section>
 
         <!-- Секция intro -->
@@ -56,21 +56,19 @@
             </p>
             <ul class="intro__list">
                 <li class="intro__item">
-                    <p class="intro__item-text">Часовых поясов <span class="intro__item-span">11</span></p>
+                    Часовых поясов <span class="intro__item-span">11</span>
                 </li>
                 <li class="intro__item">
-                    <p class="intro__item-text">Объектов природного наследия ЮНЕСКО <span
-                            class="intro__item-span">12</span></p>
+                    Объектов природного наследия ЮНЕСКО <span class="intro__item-span">12</span>
                 </li>
                 <li class="intro__item">
-                    <p class="intro__item-text">Объектов культурного наследия ЮНЕСКО <span
-                            class="intro__item-span">16</span></p>
+                    Объектов культурного наследия ЮНЕСКО <span class="intro__item-span">16</span>
                 </li>
                 <li class="intro__item">
-                    <p class="intro__item-text">Природных заповедников <span class="intro__item-span">105</span></p>
+                    Природных заповедников <span class="intro__item-span">105</span>
                 </li>
                 <li class="intro__item">
-                    <p class="intro__item-text">Аэропортов <span class="intro__item-span">241</span></p>
+                    Аэропортов <span class="intro__item-span">241</span>
                 </li>
             </ul>
         </section>
@@ -127,6 +125,7 @@
         <!-- Секция places -->
         <section class="places">
             <ul class="places__list">
+
                 <li class="places__item">
                     <h2 class="places__title">Куршская коса</h2>
                     <div class="places__website-wrapper">
@@ -236,6 +235,7 @@
 
     </main>
 
+    <!-- footer -->
     <footer class="footer">
         <nav class="footer__nav">
             <ul class="footer__nav-list">
