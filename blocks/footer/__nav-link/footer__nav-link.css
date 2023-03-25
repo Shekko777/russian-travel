@@ -4,6 +4,7 @@
   font-size: 16px;
   line-height: 1.12;
   transition: opacity 0.2s;
+  /* display: inline-block; */
 }
 
 .footer__nav-link:hover {
